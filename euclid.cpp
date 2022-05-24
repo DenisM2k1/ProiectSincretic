@@ -9,6 +9,16 @@ int main()
 
     cout << "Dati al doilea numar: ";
     cin >> b;
+    cout << endl;
+
+    while (b != 0)
+    {
+        k = a % b;
+        a = b;
+        b = k;
+    }
+
+    cout << "Cel mai mare divizor comun al numerelor este:" << a << endl;
 
     return 0;
 }
