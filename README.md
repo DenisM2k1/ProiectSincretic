@@ -35,19 +35,7 @@ int main() {
 
 
 **Aceasta este organigrama functiei recursive**
-```flow
-st=>start: Start
-op=>operation: cmmdc(a, b)
-cond=>condition: a == 0
-op2=>operation: a, b = b % a, a
-ret=>operation: return b
-e=>end: End
 
-st->op
-op->cond
-cond(yes)->ret
-cond(no)->op2
-op2->op
-ret->e
-```
+
+![image](https://user-images.githubusercontent.com/102667646/170381952-db59ab99-fcb9-4e60-8044-60d420538fdd.png)
 
