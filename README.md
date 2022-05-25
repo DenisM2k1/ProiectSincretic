@@ -30,8 +30,11 @@ int main() {
     return 0;
 }
    ```
-   Am folosit metoda impartirilor succesive .
-
+  Am folosit metoda impartirilor succesive.
+  
+  Exista un singur caz special pentru algoritmii de calculare a cmmdc, acesta fiind  cand minim unul dintre numere este 0 iar raspunsul este celalat numar care este diferit de 0.
+  
+  Algoritmul lui Euclid rezolva cazul de la sine .
 
 
 **Aceasta este organigrama functiei recursive**
